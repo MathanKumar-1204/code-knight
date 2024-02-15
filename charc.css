@@ -1,0 +1,44 @@
+html{
+    height:100%;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .navbar {
+    background-color: #f30000;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .nav-list li {
+    padding: 15px;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  

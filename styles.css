@@ -1,0 +1,86 @@
+html{
+    height:100%;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url('https://cdn.technobezz.com/games/games/screenshot/shin-chan-me-and-the-professor-on-summer-vacation-the-endless-seven-day-journey/shin-chan-me-and-the-professor-on-summer-vacation-the-endless-seven-day-journey-screenshots-489714-gamebezz-com.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .navbar {
+    background-color: #f30000;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .nav-list li {
+    padding: 15px;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }
+  .card-slider {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px; /* Set width of each card */
+    margin-right: 20px; /* Space between cards */
+    scroll-snap-align: start;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 200px; /* Adjust card width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {/* 1ROW */
+    .card {
+        width: 150px; 
+    }
+}
+  .logo{
+    height:100px;
+    width:200px;
+  }
+  .para{
+    text-align:center;
+    font-size: 30px;
+
+  }
+
+  .h1{
+    color: #000000;
+    font-family:sans-serif;
+    
+  }
+  .bg{
+    background-image: url("https://downloadwap.com/thumbs2/wallpapers/p2/2019/signs/44/af72327f13701350.jpg");
+
+  }
+
+  
